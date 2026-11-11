@@ -2,7 +2,7 @@ from pathlib import Path
 import json,html,os,re
 from urllib.parse import urlsplit
 from resources import resource_body, RESOURCE_FAQS
-D=Path(os.environ.get('OUTPUT_DIR',str(Path(__file__).parent/'dist'))); BASE=os.environ.get('SITE_URL','https://james-nowlin-real-estate.tdgxm96hkf.chatgpt.site').rstrip('/'); OLD='https://jamesnowlin.myrealtyonegroup.com'
+D=Path(os.environ.get('OUTPUT_DIR',str(Path(__file__).parent/'dist'))); BASE=os.environ.get('SITE_URL','https://jamesnowlinrealtor.com').rstrip('/'); OLD='https://jamesnowlin.myrealtyonegroup.com'
 SEARCH=OLD+'/property-search-map/sale/status-active;pending/type-single%20family;condo!townhouse;land;Multi_Family;farm;mobile!manufactured/dsort-n'
 areas=[
 ('columbia','Columbia','City energy. A place of your own.','Downtown connections · Established neighborhoods','Columbia brings the state capital, the University of South Carolina, and distinct neighborhood settings into one home search. Start with the places you visit every day, then compare the streets and homes that connect them.','Compare downtown condominiums with detached homes in established neighborhoods. Consider parking, outdoor space, building maintenance, and how you actually travel to work.','For a condominium, request association documents, dues, parking assignments, and any rental restrictions. For an older house, prioritize the roof, foundation, wiring, and recent improvements.','Main Street, the Vista, and the university area offer different settings. Visit at different times of day to understand traffic, activity, and your preferred pace.','https://www.experiencecolumbiasc.com/'),

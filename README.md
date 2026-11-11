@@ -5,9 +5,9 @@
 ## Publish
 Settings → Pages → Deploy from a branch → main → /(root) → Save.
 
-Expected URL: https://jimmyardis.github.io/James-Nowlin2/
+Expected URL: https://jamesnowlinrealtor.com/
 
 ## Rebuild
-Copy assets/ into an output directory, then run `SITE_URL=https://jimmyardis.github.io/James-Nowlin2 OUTPUT_DIR=/absolute/output python source/build.py`.
+Copy assets/ into an output directory, then run `SITE_URL=https://jamesnowlinrealtor.com OUTPUT_DIR=/absolute/output python source/build.py`.
 
 The contact form prepares an email draft. Property searches open James’s brokerage site.
